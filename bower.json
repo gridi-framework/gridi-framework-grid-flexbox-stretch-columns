@@ -1,0 +1,31 @@
+{
+    "name": "gridi-framework-grid-flexbox-stretch-columns",
+    "description": "",
+    "main": "",
+    "authors": [
+        "Przemysław Dziadek <przemyslaw.dziadek@gmail.com>"
+    ],
+    "license": "MIT",
+    "keywords": [
+        "css",
+        "scss",
+        "gridi",
+        "framework",
+        "grid",
+        "flexbox",
+        "stretch",
+        "columns"
+    ],
+    "homepage": "https://github.com/gridi-framework/gridi-framework-grid-flexbox-stretch-columns",
+    "ignore": [
+        "**/.*",
+        "**/*.md",
+        "**/*.js",
+        "**/*.json",
+        "node_modules",
+        "bower_components"
+    ],
+    "dependencies": {
+        "gridi-framework-grid-flexbox": "*"
+    }
+}

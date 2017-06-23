@@ -1,0 +1,17 @@
+.grid-flexbox.grid-stretch-#{$grid-column-class-prefix}s {
+    .row {
+        @include align-items(stretch);
+    }
+
+    .#{$grid-column-class-prefix} {
+        @include display-flex();
+        @include flex-flow(column, nowrap);
+    }
+
+    .#{$grid-column-class-prefix}-content {
+        width: 100%;
+        @include flex-grow(0);
+        @include flex-shrink(0);
+        @include flex-basis(auto);
+    }
+}
